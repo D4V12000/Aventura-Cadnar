@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <title>Aventura de Cadnar</title>
+</head>
+<body>
+     <main>
+       <div class="passo ativo" id="passo-0">
+        <img src="cenario01.jpg" alt="">
+         <p>-Ora se não é meu caro amigo, estava a procura de ti, preciso de sua ajuda e so ti poderá me ajudar!</p>
+         <button class="btn-proximo" data-proximo="1">Sim Bansir, eu te ajudo! meu amigo</button>
+         <button class="btn-proximo" data-proximo="1">Gostaria muito Bansir, porem não posso sair do meu emprego para lhe ajudar pois estou sem nenhum tostão</button>
+         <button class="btn-proximo" data-proximo="1">Sinto muito amigo, não conseguirei te ajudar hoje meu amigo</button>
+       </div>
+       <div class="passo" id="passo-1">
+        <img src="cenario02.jpg" alt="">
+        <p>Ora amigo, temos dois caminhos como você conhece essas  bandas qual seria o melhor para a gente poder passar com  a mercadoria</p>
+        <button class="btn-proximo" data-proximo="2">Caminho pelo riacho</button>
+        <button class="btn-proximo" data-proximo="2">Caminho da floresta</button>
+       </div>
+       <div class="passo" id="passo-2">
+        <p>Chegamos a uma vila amigo</p>
+        <button class="btn-proximo" data-proximo="6">Continuar!!</button>
+       </div>
+     </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
